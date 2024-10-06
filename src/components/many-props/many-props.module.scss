@@ -1,0 +1,32 @@
+@import '../../../src/styles/theme.module.scss';
+
+.root {
+    padding: 16px;
+    background-color: #f7f9fc; // Soft light grey background
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #d1d5db;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.list li span {
+    font-weight: bold;
+}
